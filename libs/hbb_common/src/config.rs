@@ -101,6 +101,7 @@ const CHARS: &[char] = &[
 ];
 
 pub const RENDEZVOUS_SERVERS: &[&str] = &["new.hsddns.com"];
+
 pub const PUBLIC_RS_PUB_KEY: &str = "Cz0DAJyupd5FX1Lttg+m3VerR+d1JfkoxfGH9W4JAzk=";
 
 pub const RS_PUB_KEY: &str = match option_env!("RS_PUB_KEY") {
